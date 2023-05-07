@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="accessoire.css">
+    </head>
+    <center><img class="write" src="logo.png"></center>
+          <center>
+            <button class="btn2" onclick="window.location.href = 'qui.html';">
+              <b>Qui Sommes Nous ?</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'vetement.html';">
+              <b>Créer votre vêtement unique</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'home.html';">
+              <b>Acceuil</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'boutique.html';">
+              <b>Notre boutique en ligne</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'contact.html';">
+              <b>Nous Contacter</b>
+            </button></center><br><br>
+            <hr><br>
+            <h1><b>CRÉEZ VOTRE ACCESSOIRE UNIQUE</b></h1>
+                  <p>Chez Mille & un Tricot, nous sommes là pour vous aider à créer l'accessoire de vos rêves.<br> Choisissez parmi nos différents produits et personnalisez-les en fonction de vos goûts et de vos besoins.</p>
+                
+                  <br><br><form action="accessoire.php" method="post">
+                    <h2>Choisir un produit</h2>
+                    <select id="product">
+<option value="sac-a-main">Sac à main</option>
+<option value="lanternes">Lanternes</option>
+<option value="bracelets">Bracelets</option>
+<option value="colliers">Colliers</option>
+<option value="bagues">Bagues</option>
+<option value="chapeaux">Chapeaux</option>
+<option value="ceintures">Ceintures</option>
+<option value="écharpes">Écharpes</option>
+<option value="montres">Montres</option>
+<option value="bijoux-de-cheveux">Bijoux de cheveux</option>
+<option value="sacs-a-dos">Sacs à dos</option>
+<option value="porte-monnaie">Porte-monnaie</option>
+<option value="portefeuilles">Portefeuilles</option>
+<option value="bonnets">Bonnets</option>
+<option value="gants">Gants</option>
+<option value="cravates">Cravates</option>
+<option value="épingles">Épingles</option>
+<option value="coussins">Coussins</option>
+<option value="photophores">Photophores</option>
+<option value="plaids">Plaids</option>
+<option value="autre">Autre</option></select>
+                
+                    <h2>Choisir une couleur</h2>
+                    <select id="color">
+                      <option value="rouge">Rouge</option>
+<option value="bleu">Bleu</option>
+<option value="vert">Vert</option>
+<option value="jaune">Jaune</option>
+<option value="noir">Noir</option>
+<option value="blanc">Blanc</option>
+<option value="gris">Gris</option>
+<option value="violet">Violet</option>
+<option value="rose">Rose</option>
+<option value="orange">Orange</option>
+<option value="marron">Marron</option>
+<option value="beige">Beige</option>
+<option value="bordeaux">Bordeaux</option>
+<option value="olive">Olive</option>
+<option value="marine">Marine</option>
+<option value="turquoise">Turquoise</option>
+<option value="argent">Argent</option>
+<option value="or">Or</option>
+<option value="bronze">Bronze</option>
+<option value="caramel">Caramel</option>
+<option value="chocolat">Chocolat</option>
+<option value="citron">Citron</option>
+<option value="fuchsia">Fuchsia</option>
+<option value="gris clair">Gris clair</option>
+<option value="gris foncé">Gris foncé</option>
+<option value="kaki">Kaki</option>
+<option value="lilas">Lilas</option>
+<option value="mauve">Mauve</option>
+<option value="menthe">Menthe</option>
+<option value="rose clair">Rose clair</option>
+<option value="rouge bordeaux">Rouge bordeaux</option>
+<option value="rouge cerise">Rouge cerise</option>
+<option value="rouge foncé">Rouge foncé</option>
+<option value="autre">Autre</option></select>
+                
+                    <h2>Choisir une taille</h2>
+                    <select id="size">
+                      <option value="petit">Petit</option>
+                      <option value="moyen">Moyen</option>
+                      <option value="grand">Grand</option>
+                    </select>
+                
+                    <h2>Choisir un matériau</h2>
+                    <select name="type_laine">
+                      <option value="laine_merinos">Laine mérinos</option>
+                      <option value="laine_alpaga">Laine d'alpaga</option>
+                      <option value="laine_mohair">Laine mohair</option>
+                      <option value="laine_agneau">Laine d'agneau</option>
+                      <option value="laine_angora">Laine d'angora</option>
+                      <option value="laine_cachemire">Laine de cachemire</option>
+                      <option value="laine_soie">Laine de soie</option>
+                      <option value="laine_lama">Laine de lama</option>
+                      <option value="laine_vicuna">Laine de vicuna</option>
+                      <option value="laine_yak">Laine de yak</option>
+                      <option value="autre">Autre</option>
+                  </select>                  
+                  <label for="autre_laine"><b>Autre détails/précisions</b></label>
+                  <input type="text" id="autre_laine" name="autre_laine"><br>
+                  
+                  <label for="email"><b>E-mail :</b></label>
+                  <input type="email" id="email" name="email"><br>
+                    <input type="submit" value="Valider">
+                    <p><i>* Nous vous recontacterons sous 7 jours, merci de prendre en compte un délais de conception de votre accessoire unique.</i></p>
+               </form><br><br>
+               <footer id="footer" role="footer">
+                <br>
+                <div class="footer">
+                  <h2>MILLE & UN TRICOT</h2>
+                  <p>1 Place bayère, 69570 Dardilly</p>
+                  <div class="footer-buttons">
+                    <button class="btn-contact" onclick="window.location.href = 'contact.html';">Nous Contacter</button>
+                    <button class="btn-contact" onclick="window.location.href = 'https://instagram.com/milleetuntricot?igshid=ZDdkNTZiNTM='">Notre Instagram</button>
+                  </div>
+                  <br>
+                  <p>Conception & Réalisation : Boulif Aïcha<br><br>©2023 Mille & Un Tricot</p>
+                </div>
+              </footer>       
+</html>

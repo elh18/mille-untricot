@@ -1,0 +1,180 @@
+.bracelet {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 5%;
+}
+.hijab {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 20%;
+    margin-left: 5%;
+}
+.cocon {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.lanterne{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.tetine{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.damier{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.pull{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.pantalon {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+.chausson{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.couverture{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.sacoche{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.sac{
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+h1{
+    color: grey;
+}
+body{
+    background-color: white;
+}
+.btn-bracelet{
+    margin-top: 1%;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 120px;
+    height: 40px;
+}
+.btn-bracelet:hover{
+    color: black;
+    background-color: white;
+}
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(253, 246, 231);
+    clear: both;
+    float: both;
+  }
+  
+  .footer h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .footer-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .btn-contact {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    width: 200px;
+    height: 50px;
+  }
+  
+  .btn-contact:hover {
+    background-color: white;
+    color: black;
+  }
+.btn-contact{
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+.btn-bracelet, .btn-contact {
+    color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-bracelet:hover, .btn-contact:hover {
+    background-color: white;
+    color: #333;
+}
+.btn2 {
+    color: #fff;
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 10px 2px;
+    cursor: pointer;
+    border: none;
+    margin-top: 2%;
+  }
+  
+  .btn2:hover{
+    background-color: white;
+    color: black;
+  }

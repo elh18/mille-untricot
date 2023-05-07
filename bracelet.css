@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .main-content {
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 80%;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  .product-image {
+    width: 40%;
+    height: auto;
+    margin: 20px 0;
+    float: left;
+    margin-left: 5%;
+  }
+  
+  .buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .buy-button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+  }
+.buy-container{
+    clear: both;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.btn-contact {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 200px;
+  height: 50px;
+}
+
+.btn-contact:hover {
+  background-color: white;
+  color: black;
+}
+.btn2 {
+  color: #fff;
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  margin: 10px 2px;
+  cursor: pointer;
+  border: none;
+  margin-top: 2%;
+}
+
+.btn2:hover{
+  background-color: white;
+  color: black;
+}
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: rgb(253, 246, 231);
+  clear: both;
+  float: both;
+}
+
+.footer h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.product-description{
+  background-color: rgb(253, 246, 231);
+  width: 45%;
+  color: black;
+  margin-left: 4%;
+  margin-top: 2%;
+  text-align: left;
+  font-family:'Times New Roman', Times, serif;
+  float: right;
+  margin-right: 5%;
+  padding-left: 10px;
+}

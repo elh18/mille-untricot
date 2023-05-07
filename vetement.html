@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="stylesheet" href="vêtement.css">
+    </head>
+    <center><img class="write" src="logo.png"></center>
+          <center>
+            <button class="btn2" onclick="window.location.href = 'qui.html';">
+              <b>Qui Sommes Nous ?</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'accessoire.html';">
+              <b>Créer votre accessoire unique</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'home.html';">
+              <b>Acceuil</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'boutique.html';">
+              <b>Notre boutique en ligne</b>
+            </button>
+            <button class="btn2" onclick="window.location.href = 'contact.html';">
+              <b>Nous Contacter</b>
+            </button></center><br><br>
+            <hr><br>
+                <body>
+                  <h1>CRÉEZ VOTRE VÊTEMENT UNIQUE</h1>
+                  <br><p>Découvrez l'unicité de nos vêtements faits à la main au tricot ou au crochet chez Mille & un tricot.
+                  <br> Chaque pièce est soigneusement confectionnée pour vous offrir un look unique et intemporel. 
+                  <br>Commandez maintenant pour un style qui reflète votre personnalité !</p><br><br>
+                <main>
+                  <form action="vetement.php" method="post">
+                    <h2>Type de vêtement </h2>
+                    <select id="garment-type" name="garment-type">
+                      <option value="pull">Pull</option>
+                      <option value="robe">Robe</option>
+                      <option value="veste">Veste</option>
+                      <option value="pantalon">Pantalon</option>
+                      <option value="jupe">Jupe</option>
+                      <option value="chemise">Chemise</option>
+                      <option value="sweatshirt">Sweatshirt</option>
+                      <option value="manteau">Manteau</option>
+                      <option value="blouse">Blouse</option>
+                      <option value="combinaison">Combinaison</option>
+                      <option value="short">Short</option>
+                      <option value="gilet">Gilet</option>
+                      <option value="chaussettes">Chaussettes</option>
+                      <option value="écharpe">Écharpe</option>
+                      <option value="chapeau">Chapeau</option>
+                      <option value="gants">Gants</option>
+                      <option value="cravate">Cravate</option>
+                    </select><br><br>
+                    <h2>Choisir une couleur</h2>
+                    <input class="large-color-input" type="color" id="color" name="color"><br><br>
+                    <h2>Choisir une taille</h2>
+                    <select name="taille">
+                      <option value="petit">Petit</option>
+                      <option value="moyen">Moyen</option>
+                      <option value="grand">Grand</option>
+                      <option value="très petit">Très petit</option>
+                      <option value="très grand">Très grand</option>
+                      <option value="XS">XS</option>
+                      <option value="S">S</option>
+                      <option value="M">M</option>
+                      <option value="L">L</option>
+                      <option value="XL">XL</option>
+                      <option value="XXL">XXL</option>
+                      <option value="XXXL">XXXL</option>
+                      <option value="taille unique">Taille unique</option>
+                      <option value="taille enfant">Taille enfant</option>
+                      <option value="taille adulte">Taille adulte</option>
+                      <option value="EU 36">EU 36</option>
+                      <option value="EU 37">EU 37</option>
+                      <option value="EU 38">EU 38</option>
+                      <option value="EU 39">EU 39</option>
+                      <option value="EU 40">EU 40</option>
+                      <option value="EU 41">EU 41</option>
+                      <option value="EU 42">EU 42</option>
+                      <option value="EU 43">EU 43</option>
+                      <option value="EU 44">EU 44</option>
+                      <option value="EU 45">EU 45</option>
+                  </select>
+                  <h2>Choisir un matériau</h2>
+                  <select name="type_laine">
+                    <option value="laine_merinos">Laine mérinos</option>
+                    <option value="laine_alpaga">Laine d'alpaga</option>
+                    <option value="laine_mohair">Laine mohair</option>
+                    <option value="laine_agneau">Laine d'agneau</option>
+                    <option value="laine_angora">Laine d'angora</option>
+                    <option value="laine_cachemire">Laine de cachemire</option>
+                    <option value="laine_soie">Laine de soie</option>
+                    <option value="laine_lama">Laine de lama</option>
+                    <option value="laine_vicuna">Laine de vicuna</option>
+                    <option value="laine_yak">Laine de yak</option>
+                    <option value="autre">Autre</option>
+                </select>                
+                <label for="autre_laine"><b>Autre détails/précisions</b></label>
+                <input class="large-color-input" type="text" id="autre_laine" name="autre_laine"><br>
+                    <label for="email"><b>E-mail :</b></label>
+                    <input class="large-color-input" type="email" id="email" name="email"><br>
+                    <input type="submit" value="Soumettre la demande"><br>
+                    <p><i>* Nous vous recontacterons sous 7 jours, merci de prendre en compte un délais de conception de votre vêtement.</i></p><br>
+              </form>
+                </main>
+                </body>
+                <br><br><br><br><footer id="footer" role="footer">
+                  <br>
+                  <div class="footer">
+                    <h2>MILLE & UN TRICOT</h2>
+                    <p>1 Place bayère, 69570 Dardilly</p>
+                    <div class="footer-buttons">
+                      <button class="btn-contact" onclick="window.location.href = 'contact.html';">Nous Contacter</button>
+                      <button class="btn-contact" onclick="window.location.href = 'https://instagram.com/milleetuntricot?igshid=ZDdkNTZiNTM='">Notre Instagram</button>
+                    </div>
+                    <br>
+                    <p>Conception & Réalisation : Boulif Aïcha<br><br>©2023 Mille & Un Tricot</p>
+                  </div>
+                </footer>                  
+            </html>
+            
+        
